@@ -1,4 +1,4 @@
-# darknet-using-android-camera
+# Darkflow using android camera
 Real-time object detection and classification using Android Camera
 
 See demo below or see on [this imgur](http://i.imgur.com/EyZZKAA.gif)
@@ -19,13 +19,13 @@ Python3, tensorflow 1.0, numpy, opencv 3 and IP Webcam APP
 3. After install IP Webcam App, get your IP and port and change the below in `darkflow/run.py` file:
 
 ```
-   capture = cv2.VideoCapture("rtsp://ip:port/h264_pcm.sdp", cv2.CAP_FFMPEG) 
+capture = cv2.VideoCapture("rtsp://ip:port/h264_pcm.sdp", cv2.CAP_FFMPEG) 
 ```
 
 ### Run
 
 Inside darkflow folder run:
 ```
-    python run.py
+python run.py
 ```
 
