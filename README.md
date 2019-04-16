@@ -1,4 +1,4 @@
-# darknet-using-android-camera
+# Darkflow using android camera
 Real-time object detection and classification using Android Camera
 
 See demo below or see on [this imgur](http://i.imgur.com/EyZZKAA.gif)
